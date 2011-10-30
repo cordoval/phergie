@@ -64,6 +64,8 @@ return array(
         // command.
 
         'Quit',
+	'Db',
+	'Cron',
     ),
 
     // If set to true, this allows any plugin dependencies for plugins
@@ -95,4 +97,6 @@ return array(
 
     'ping.ping' => 10, // 10 seconds
 
+    'logger.delay' => 10, // 10 seconds
+    'logger.logtype' => 'sqlite', // sqlite log file
 );
